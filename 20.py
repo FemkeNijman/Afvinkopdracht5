@@ -1,17 +1,22 @@
 import random
 
 def randomgetalmaken():
+    """Maakt een random getal tussen de 0 en 100
+    
+    input:
+    output:
+    randomgetal - int
     """
-output: een random getal tussen 0 en 100
-"""
     randomgetal = random.randint(0,100)
     return randomgetal
 
 def gelijk(randomgetal, geraden):
-    """input: randomgetal en het geraden getal
-
-output: print het antwoord
-"""
+    """Kijkt of het geraden getal overeenkomt met het random getal
+    
+    input:
+    randomgetal, geraden - int
+    output:
+    """
     if geraden == randomgetal:
         print("Goed!")
     if geraden < randomgetal:
