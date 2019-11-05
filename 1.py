@@ -1,9 +1,9 @@
 def milesmaker(km):
-    """Maakt van het aantal km het aantal gelijke miles.
+    """maakt van het aantal km het aantal gelijke miles.
 
-    input =
+    input:
     km - float
-    output =
+    output:
     km - float
     """
     return km * 0.6214
