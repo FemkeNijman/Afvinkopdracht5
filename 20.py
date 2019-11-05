@@ -5,7 +5,7 @@ def randomgetalmaken():
     
     input:
     output:
-    randomgetal - int
+    return randomgetal
     """
     randomgetal = random.randint(0,100)
     return randomgetal
