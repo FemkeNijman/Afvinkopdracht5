@@ -1,7 +1,7 @@
 import random
 
 def randomgetalmaken():
-    """Maakt een random getal tussen de 0 en 100
+    """maakt een random getal tussen de 0 en 100
     
     input:
     output:
@@ -11,7 +11,7 @@ def randomgetalmaken():
     return randomgetal
 
 def gelijk(randomgetal, geraden):
-    """Kijkt of het geraden getal overeenkomt met het random getal
+    """kijkt of het geraden getal overeenkomt met het random getal
     
     input:
     randomgetal, geraden - int
