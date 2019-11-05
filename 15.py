@@ -1,10 +1,10 @@
 def calc_average():
     """Vraagt cijfers op en returnt het gemiddelde
 
-    input = 
+    input:
     cijfer - float
-    output = 
-    return gemiddelde
+    output:
+    return gemiddelde - float
     """
     gemiddelde = 0
     for i in range(5):
