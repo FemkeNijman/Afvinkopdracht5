@@ -17,9 +17,9 @@ def calc_average():
 def determine_grade(gemiddelde):
     """ Kijkt welke letter bij het cijfer past
 
-    input =
+    input:
     gemiddelde - float
-    output =
+    output:
     """
     A = 9.0
     B = 8.0
