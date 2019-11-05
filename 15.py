@@ -4,7 +4,7 @@ def calc_average():
     input = 
     cijfer - float
     output = 
-    gemiddelde - float
+    return gemiddelde
     """
     gemiddelde = 0
     for i in range(5):
