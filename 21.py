@@ -1,18 +1,23 @@
 import random
 
 def randomgetalmaken():
+    """Maakt een random getal tussen de 1 en 3
+    
+    input:
+    output:
+    randomgetal - int
     """
-output: random getal tussen 1 en 3
-"""
     randomgetal = random.randint(1,3)
     return randomgetal
 
 def voorwerp(randomgetal):
+    """Linkt het random getal aan een string
+    
+    input: 
+    randomgetal - int
+    output: 
+    computer - string
     """
-input: randomgetal
-
-output: steen, papier of schaar
-"""
     computer = str(" ")
     if randomgetal == 1:
         computer = ("Steen")
@@ -23,11 +28,12 @@ output: steen, papier of schaar
     return computer
 
 def uitkomstbekijken(computer, eigenvoorwerp):
+    """Kijkt of de user of de computer wint.
+    
+    input: 
+    computer, eigenvoorwerp - string
+    output: 
     """
-input: computer en eigenvoorwerp
-
-output: uitkomst
-"""
     if computer == eigenvoorwerp:
         print ("Gelijkspel")
     elif computer == "Schaar" and eigenvoorwerp == "Papier":
