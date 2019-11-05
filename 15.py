@@ -1,10 +1,11 @@
 def calc_average():
     """Vraagt cijfers op en returnt het gemiddelde
 
-input = 5x cijfer
-
-output = return gemiddelde
-"""
+    input = 
+    cijfer - float
+    output = 
+    gemiddelde - float
+    """
     gemiddelde = 0
     for i in range(5):
         cijfer = (float(input("Geef een cijfer: ")))
@@ -16,10 +17,10 @@ output = return gemiddelde
 def determine_grade(gemiddelde):
     """ Kijkt welke letter bij het cijfer past
 
-input = gemiddelde
-
-output = A, B, C of D
-"""
+    input =
+    gemiddelde - float
+    output =
+    """
     A = 9.0
     B = 8.0
     C = 7.0
