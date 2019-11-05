@@ -1,5 +1,5 @@
 def calc_average():
-    """Vraagt cijfers op en returnt het gemiddelde
+    """vraagt cijfers op en returnt het gemiddelde
 
     input:
     cijfer - float
@@ -15,7 +15,7 @@ def calc_average():
     return gemiddelde
 
 def determine_grade(gemiddelde):
-    """ Kijkt welke letter bij het cijfer past
+    """kijkt welke letter bij het cijfer past
 
     input:
     gemiddelde - float
