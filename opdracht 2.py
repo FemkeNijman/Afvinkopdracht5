@@ -1,9 +1,11 @@
 def lees_inhoud(bestandsnaam):
+    """Opent het bestand en haalt witregels weg
+    
+    input:
+    bestandsnaam - string
+    output:
+    return header, sequentie - string
     """
-input: opent het bestand en haalt witregels weg.
-
-output: header en sequentie gescheiden.
-"""
     bestand = open(bestandsnaam)
     header = ""
     sequentie = ""
@@ -15,11 +17,12 @@ output: header en sequentie gescheiden.
     return header, sequentie
 
 def is_dna(sequentie):
-"""
+    """Kijkt of de karakters in de sequentie overeenkomen met de nucleotiden
 
-input: Wordt bekeken of de karakters in sequentie overeenkomen met de nucleotiden
-
-output: False of True
+    input:
+    sequentie - string
+    output:
+    return True or False
     """
     for nucleotide in sequentie:
         if nucleotide not in "ACGTN":
