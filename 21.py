@@ -5,7 +5,7 @@ def randomgetalmaken():
     
     input:
     output:
-    randomgetal - int
+    return randomgetal
     """
     randomgetal = random.randint(1,3)
     return randomgetal
@@ -16,7 +16,7 @@ def voorwerp(randomgetal):
     input: 
     randomgetal - int
     output: 
-    computer - string
+    return computer
     """
     computer = str(" ")
     if randomgetal == 1:
